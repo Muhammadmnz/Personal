@@ -536,12 +536,14 @@ section .container {
   cursor: pointer;
   display: inline-block;
   padding: 8px 16px 10px 16px;
-  font-size: 14px;
+  font-size: 115px;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
   color: #fff;
-  background: rgba(255, 255, 255, 0.1);
+  background: -webkit-linear-gradient(#15bb62, rgb(240, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin: 0 3px 10px 3px;
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
