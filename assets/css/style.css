@@ -446,6 +446,15 @@ section .container {
   width: 19em;
 }
 
+.services .icon-box {
+  text-align: center;
+  background: rgba(204, 204, 204, 0.1);
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  width: 19em;
+  display: block;
+}
+
 .services .icon-box .icon {
   margin: 0 auto;
   width: 64px;
@@ -529,7 +538,7 @@ section .container {
   list-style: none;
   text-align: center;
   border-radius: 50px;
-  padding: 2px 15px;
+  padding: 4px 15px;
 }
 
 .portfolio #portfolio-flters li {
