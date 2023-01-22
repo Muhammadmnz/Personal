@@ -267,3 +267,5 @@ const neonGlory = target => target.innerHTML = flickerAndColorText(target.textCo
 neonGlory(target);
 target.onclick = ({ target }) =>  neonGlory(target);
 Glory = target => target.innerHTML = flickerAndColorText(target.textContent);
+
+var video = document.getElementById("myVideo");
